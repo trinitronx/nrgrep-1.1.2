@@ -1,0 +1,21 @@
+
+NR-grep -- a fast and flexible pattern matching tool
+
+Unix/Linux distribution
+    (main reason is a "cat" system call in shell.c)
+
+
+COPYRIGHT --> see file called COPYRIGHT
+
+INSTALLATION --> run "make", which will produce the executable "nrgrep"
+
+USE --> run "nrgrep" and see usage, or "nrgrep -H" for full help.
+
+VERSION ---> nrgrep 1.1.2
+
+Small bugs of version 1.1.1 fixed, at simpleFindBest (indexes problems)
+				   some char* instead of byte*
+
+Still known bugs, e.g. es?s*_of_get finds nothing in text verge_of_getting
+
+
