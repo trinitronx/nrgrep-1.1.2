@@ -44,6 +44,8 @@ typedef int bool;
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
+#include <stdlib.h>  /* for exit, malloc, realloc, free */
+#include <string.h>  /* for strlen */
 
         /* some constants */
 

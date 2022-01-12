@@ -26,6 +26,7 @@ Chile. Blanco Encalada 2120, Santiago, Chile. gnavarro@dcc.uchile.cl
 /* #include "memio.h" cannot be done because of circular redefinition */
 
 #include <stdio.h>
+#include <stdlib.h>  /* for malloc, realloc, and exit */
 #include "except.h"
 
 void *mymalloc (int n)
